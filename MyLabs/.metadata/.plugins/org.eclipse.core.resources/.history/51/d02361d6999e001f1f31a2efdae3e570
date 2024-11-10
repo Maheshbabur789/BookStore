@@ -1,0 +1,19 @@
+function addToCart(productName, productPrice) {
+    fetch('AddToCartServlet', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            name: productName,
+            price: productPrice,
+        }),
+    })
+    .then(response => response.json())
+    .then(data => {
+        alert(data.message);
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+}

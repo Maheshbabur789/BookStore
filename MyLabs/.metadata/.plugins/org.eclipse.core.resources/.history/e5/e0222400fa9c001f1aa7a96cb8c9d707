@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style>
+    
+</style>
+</head>
+<body>
+ <header>
+        <nav>
+            <ul>
+                <li><a href="#products">Clothes and Fashion</a></li>
+                <li><a href="#categories">Groceries</a></li>
+                <li><a href="#deals">Gold</a></li>
+                <li><a href="#cart">Electronics Shopping Cart</a></li>
+                <li><a href="#cart">Sports</a></li>
+            </ul>
+        </nav>
+    </header></body>
+</html>

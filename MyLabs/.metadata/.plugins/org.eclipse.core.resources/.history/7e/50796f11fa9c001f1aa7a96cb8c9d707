@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style>
+    header {
+    background-color: #ff6600; /* Change this color to your desired header background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+</style>
+</head>
+<body>
+ <header>
+        <nav>
+            <ul>
+                <li><a href="#products">Clothes and Fashion</a></li>
+                <li><a href="#categories">Groceries</a></li>
+                <li><a href="#deals">Gold</a></li>
+                <li><a href="#cart">Electronics Shopping Cart</a></li>
+                <li><a href="#cart">Sports</a></li>
+            </ul>
+        </nav>
+    </header></body>
+</html>

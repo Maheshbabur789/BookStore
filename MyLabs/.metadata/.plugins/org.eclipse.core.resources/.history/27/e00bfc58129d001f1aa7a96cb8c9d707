@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Easy Market - Online Shopping</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+/* Reset and base styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+h1, h2 {
+    font-size: 24px;
+    color: #333;
+}
+p {
+    color: #777;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #ff6600; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+nav li {
+    margin-right: 20px;
+}
+nav li a {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 20px;
+}
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    outline: none;
+    transition: background-color 0.3s;
+}
+.cta-button:hover {
+    background-color: #e55a00;
+}
+
+/* Section Styling */
+section {
+    padding: 40px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Product Card */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.product-card {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    outline: none;
+}
+.product-card:hover {
+    transform: translateY(-10px);
+}
+.product-card img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.product-card h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+}
+.product-card p {
+    font-size: 14px;
+    color: #777;
+    margin-top: 10px;
+}
+.product-card .price {
+    font-size: 16px;
+    color: #ff6600;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.product-card .add-to-cart {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #ff6600;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+.product-card .add-to-cart:hover {
+    background-color: #e55a00;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #ff6600;
+    color: #fff;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+footer p {
+    font-size: 14px;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .product-container {
+        justify-content: center;
+    }
+    .product-card {
+        width: 90%;
+        margin: 10px 0;
+    }
+}
+</style>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#products">Clothes and Fashion</a></li>
+            <li><a href="#categories">Groceries</a></li>
+            <li><a href="#deals">Gold</a></li>
+            <li><a href="#cart">Electronics</a></li>
+            <li><a href="#sports">Sports</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Welcome to Easy Market</h1>
+    <p>Your One-Stop Online Shopping Destination</p>
+    <a href="#products" class="cta-button">Shop Now</a>
+</section>
+
+<section id="products" class="products">
+    <h2>Clothes and Fashion</h2>
+    <div class="product-container">
+        <div class="product-card">
+            <img src="Cami-Top.jpg" alt="Cami Top Dress">
+            <h3>Cami Top Dress</h3>
+            <p>Product Description 1</p>
+            <span class="price">$3,949.99</span>
+            <a href="#" class="add-to-cart">Buy Now</a>
+        </div>
+        <div class="product-card">
+            <img src="Cotton-Shirts.jpg" alt="Cotton Gents Shirts">
+            <h3>Cotton Gents Shirts</h3>
+            <p>Product Description 1</p>
+            <span class="price">$4,099.99</span>
+            <a href="#" class="add-to-cart">Buy Now</a>
+        </div>
+        <!-- Add more products here -->
+    </div>
+</section>
+
+<section id="categories" class="categories">
+    <h2>Groceries</h2>
+    <div class="product-container">
+        <!-- Add grocery products here -->
+    </div>
+</section>
+
+<section id="deals" class="categories">
+    <h2>Gold</h2>
+    <div class="product-container">
+        <!-- Add gold products here -->
+    </div>
+</section>
+
+<section id="cart" class="cart">
+    <h2>Electronics Shopping Cart</h2>
+    <div class="product-container">
+        <!-- Add electronics products here -->
+    </div>
+</section>
+
+<section id="sports" class="products">
+    <h2>Sports</h2>
+    <div class="product-container">
+        <!-- Add sports products here -->
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2023 Easy Market. All rights reserved.</p>
+</footer>
+</body>
+</html>

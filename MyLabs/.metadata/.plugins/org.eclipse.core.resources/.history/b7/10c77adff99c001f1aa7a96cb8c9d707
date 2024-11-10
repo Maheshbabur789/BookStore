@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style>
+    header{
+            font-size: 30px;
+            font-family:Arial;
+            display: flex;
+            justify-content: space-between;
+            padding: 30px;
+            background-color: rgb(42, 165, 144);
+        }
+</style>
+</head>
+<body>
+<header>
+ <div>
+ <span class="shopper">Shopper.</span>
+ </div>
+ <div>
+ <nav>
+ <span>Home</span>
+ <span>Catlog</span>
+ <span>Shop</span>
+ <span>Pages</span>
+ <span>Blog</span>
+ <span>Docs</span>
+ </nav>
+ </div>
+ </header>
+</body>
+</html>

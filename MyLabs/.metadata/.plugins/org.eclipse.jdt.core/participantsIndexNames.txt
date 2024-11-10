@@ -1,0 +1,27 @@
+INDEX VERSION 1.134
+E:\Servlets\MyLabs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2729856908.index
+\Lab1\src\main\java
+E:\Servlets\MyLabs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3518916675.index
+\Lab5\src\main\java
+E:\Servlets\MyLabs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1156957541.index
+\mylab8\src\main\java
+E:\Servlets\MyLabs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2953414943.index
+\OnlineMarketing\src\main\java
+E:\Servlets\MyLabs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1456457392.index
+\BookStore\src\main\java
+E:\Servlets\MyLabs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1892753371.index
+\Lab10\src\main\java
+E:\Servlets\MyLabs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3127472922.index
+\Online Shoping\src\main\java
+E:\Servlets\MyLabs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1151729682.index
+\Lab9\src\main\java
+E:\Servlets\MyLabs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\517205635.index
+\AddtoCart\src\main\java
+E:\Servlets\MyLabs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\97598963.index
+\mylab6\src\main\java
+E:\Servlets\MyLabs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2443935059.index
+\Student\src\main\java
+E:\Servlets\MyLabs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2188900016.index
+\mylab7\src\main\java
+E:\Servlets\MyLabs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4046197768.index
+\Lab2\src\main\java

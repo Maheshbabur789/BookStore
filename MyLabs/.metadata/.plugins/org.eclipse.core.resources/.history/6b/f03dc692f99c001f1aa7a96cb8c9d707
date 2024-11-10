@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<header>
+ <div>
+ <span class="shopper">Shopper.</span>
+ </div>
+ <div>
+ <nav>
+ <span>Home</span>
+ <span>Catlog</span>
+ <span>Shop</span>
+ <span>Pages</span>
+ <span>Blog</span>
+ <span>Docs</span>
+ </nav>
+ </div>
+ </header>
+</body>
+</html>

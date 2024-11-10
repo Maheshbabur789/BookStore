@@ -1,0 +1,5 @@
+package com.mahesh.registration;
+
+public class CartItem {
+
+}

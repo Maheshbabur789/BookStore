@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style>
+    header {
+    background-color: #ff6600; /* Change this color to your desired header background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+    nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+nav ul {
+	
+    list-style: none;
+    display: flex;
+}
+nav li {
+    margin-right: 20px;
+}
+}
+</style>
+</head>
+<body>
+ <header>
+        <nav>
+            <ul>
+                <li><a href="#products">Clothes and Fashion</a></li>
+                <li><a href="#categories">Groceries</a></li>
+                <li><a href="#deals">Gold</a></li>
+                <li><a href="#cart">Electronics Shopping Cart</a></li>
+                <li><a href="#cart">Sports</a></li>
+            </ul>
+        </nav>
+    </header>
+     <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Easy Market</h1>
+            <p>Your One-Stop Online Shopping Destination</p>
+            <a href="#products" class="cta-button">Shop Now</a>
+        </div>
+        <img src="http://localhost/php-practice/praveen/site/uploads/WhatsApp Image 2023-10-12 at 13.02.22_dc6c5a8c" alt="Online Shopping Illustration">
+    </section>
+    
+    </body>
+</html>

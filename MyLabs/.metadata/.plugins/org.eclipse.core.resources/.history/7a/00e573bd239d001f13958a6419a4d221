@@ -1,0 +1,77 @@
+<!-- index.jsp (View Page) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazone-like Store</title>
+    <style>
+        /* Your CSS styles go here */
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to Amazone-like Store</h1>
+        <p>Discover a world of amazing products.</p>
+        <a href="#" class="cta-button">Shop Now</a>
+    </section>
+
+    <hr>
+
+    <!-- Featured Products Section -->
+    <h2 style="text-align: center;">Groceries</h2>
+    <div style="display:flex; text-align: center;">
+        <c:forEach var="product" items="${products}">
+            <c:if test="${product.category == 'Groceries'}">
+                <section class="featured-products">
+                    <div class="product-card highlights">
+                        <img src="http://localhost/images/${product.photoName}" alt="Product" style="width:200px">
+                        <h3>${product.productName}</h3>
+                        <p>${product.description}</p>
+                        <span class="price">$${product.price}</span>
+                        <a href="#" class="cta-button">Buy Now</a>
+                    </div>
+                </section>
+            </c:if>
+        </c:forEach>
+    </div>
+
+    <hr>
+
+    <!-- Similarly for other categories like Clothes, Electronics, etc. -->
+
+    <!-- Amazone Information Section -->
+    <section class="Amazone-info">
+        <h2 style="text-align: center;">About Amazone</h2>
+        <p style="text-align: center;">Amazone is the world's largest online retailer and a prominent cloud services provider. Founded in 1994, Amazone offers a wide range of products and services, including e-commerce, streaming, and artificial intelligence.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2 style="text-align: center;">Contact Us</h2>
+        <p style="text-align: center;">If you have any questions or need assistance, please feel free to contact us.</p>
+        <ul style="text-align: center;">
+            <li>Email: contact@example.com</li>
+            <li>Phone: +1 (123) 456-7890</li>
+        </ul>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Amazone-like Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>

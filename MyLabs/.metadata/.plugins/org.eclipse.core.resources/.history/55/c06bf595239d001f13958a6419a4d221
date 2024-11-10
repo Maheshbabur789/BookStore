@@ -1,0 +1,25 @@
+package com.mahesh.Amazon;
+
+//ProductService.java (Service Class)
+import java.util.List;
+import java.util.ArrayList;
+
+public class ProductService {
+ public List<Product> getProducts() {
+     List<Product> products = new ArrayList<>();
+
+     // This should ideally come from a database, but for now, we're creating sample products
+     Product product1 = new Product();
+     product1.setProductName("Product 1");
+     product1.setCategory("Groceries");
+     product1.setDescription("This is a grocery product.");
+     product1.setPhotoName("product1.jpg");
+     product1.setPrice(10.99);
+
+     products.add(product1);
+
+     // Add more products as needed
+     return products;
+ }
+}
+

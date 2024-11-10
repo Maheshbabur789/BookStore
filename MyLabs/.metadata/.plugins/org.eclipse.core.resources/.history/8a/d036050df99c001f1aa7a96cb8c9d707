@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="OnlineMarketing">
+        <property name="context-root" value="OnlineMarketing"/>
+        <property name="java-output-path" value="/OnlineMarketing/build/classes"/>
+    </wb-module>
+</project-modules>

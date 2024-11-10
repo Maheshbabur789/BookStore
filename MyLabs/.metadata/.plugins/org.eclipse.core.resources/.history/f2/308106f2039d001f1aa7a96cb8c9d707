@@ -1,0 +1,96 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Easy Market - Online Shopping</title>
+<style>
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+    header {
+    background-color: #ff6600; /* Change this color to your desired header background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+    nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+nav ul {
+	
+    list-style: none;
+    display: flex;
+}
+nav li {
+    margin-right: 20px;
+}
+.hero {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 20px;
+}
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+}
+</style>
+</head>
+<body>
+ <header>
+        <nav>
+            <ul>
+                <li><a href="#products">Clothes and Fashion</a></li>
+                <li><a href="#categories">Groceries</a></li>
+                <li><a href="#deals">Gold</a></li>
+                <li><a href="#cart">Electronics Shopping Cart</a></li>
+                <li><a href="#cart">Sports</a></li>
+            </ul>
+        </nav>
+    </header>
+      <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Easy Market</h1>
+            <p>Your One-Stop Online Shopping Destination</p>
+            <a href="#products" class="cta-button">Shop Now</a>
+        </div>
+        
+    </section>
+    <hr>
+    <h2 style="text-align: center;">Clothes and Fashion</h2>
+    <div class="product-container">
+    <section id="products" class="products" style="display: flex;">
+    
+    <div class="product-card highlights">
+			    <img src="Cami-Top.jpg" alt="Sample Image" width="300" height="200" alt="Product 1">
+			    <h3>Cami Top Dress</h3>
+			    <p>Product Description 1</p>
+			    <span class="price">$3,949.99</span>
+			    <a href="/images/Cami-Top.jpg" alt="Sample Image" width="100" height="200" class="add-to-cart">Buy Now</a>
+			</div>
+</body>
+</html>
