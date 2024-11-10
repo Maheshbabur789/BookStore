@@ -1,4 +1,0 @@
-FROM openjdk:22
-COPY target/BookStore /usr/app/
-WORKDIR /usr/app/
-ENTRYPOINT ["java", "-jar", "BookStore.jar"]
