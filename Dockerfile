@@ -1,10 +1,10 @@
-FROM centos :latest
+FROM centos:latest
 RUN yum install java -y
-RUN mkdir /opt/tomcat
+RUN mkdir -p /opt/tomcat
 WORKDIR /opt/tomcat
-ADD https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.97/bin/apache-tomcat-9.0.97.tar.gz .
-RUN tar -xvzf apache-tomcat-9.0.54.tar.gz
-RUN mv apache-tomcat-9.0.54/* /opt/tomcat
+RUN curl -O https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.97/bin/apache-tomcat-9.0.97.tar.gz \
+    && tar -xvzf apache-tomcat-9.0.97.tar.gz \
+    && mv apache-tomcat-9.0.97/* /opt/tomcat \
+    && rm -f apache-tomcat-9.0.97.tar.gz
 EXPOSE 9999
-CMD ["/opt/tomcat/bit/Catalina.sh", "run"]
- 
+CMD ["/opt/tomcat/bin/catalina.sh", "run"]
